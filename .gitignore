@@ -1,0 +1,5 @@
+node_modules
+content/data/
+content/images/
+config.js
+config.js.save

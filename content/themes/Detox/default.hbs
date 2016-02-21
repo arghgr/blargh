@@ -59,8 +59,8 @@
         {{! The header }}
         <header id="site-header">
             <div class="container">
-                {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-                <a href="bl.argh.gr" alt="Blog Title"><h1 class="blog-title heading">{{@blog.title}}</h1></a>
+                {{#if @blog.logo}}<a id="blog-logo" href="/"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+                <a href="/" alt="Blog Title"><h1 class="blog-title heading">{{@blog.title}}</h1></a>
                 <p class="blog-description">{{{@blog.description}}}</p>
             </div>
         </header>
@@ -73,7 +73,7 @@
         {{! The footer }}
         <footer id="site-footer">
             <div class="container">
-                <!-- <a href="{{@blog.url}}/rss/" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a> -->
+                <!-- <a href="/rss/" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a> -->
                 <section>&copy; <a href="/">{{@blog.title}}</a> 2013 | All rights reserved</section>
                 <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Published with <a class="icon-ghost" href="http://ghost.org">Ghost</a>.</section>
             </div>

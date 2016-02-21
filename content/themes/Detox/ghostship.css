@@ -1,12 +1,16 @@
+/*! ghostship.css */
 
 .container { max-width: 700px; }
 header#site-header, .post {
   min-height: 0;
   height: auto;
   margin-bottom: 7em;
-  @media (max-width: 800px) {
-    margin-bottom: 6em !important;
-  }
 }
 .blog-description, .post-excerpt { color: black; }
 .post-excerpt a { font-weight: bold; }
+
+@media screen and (max-width: 800px) {
+  header#site-header, .post {
+    margin-bottom: 6em !important;
+  }
+}

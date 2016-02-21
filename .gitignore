@@ -3,3 +3,5 @@ content/data/
 content/images/
 config.js
 config.js.save
+core/client/
+npm-debug.log

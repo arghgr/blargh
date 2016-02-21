@@ -1,0 +1,12 @@
+
+.container { max-width: 700px; }
+header#site-header, .post {
+  min-height: 0;
+  height: auto;
+  margin-bottom: 7em;
+  @media (max-width: 800px) {
+    margin-bottom: 6em !important;
+  }
+}
+.blog-description, .post-excerpt p { color: black; }
+.post-excerpt a { font-weight: bold; }
